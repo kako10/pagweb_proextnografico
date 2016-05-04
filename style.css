@@ -378,6 +378,7 @@ p.box-desc
 }
 
 
+
 .story-boxb
 {
 	/*border: 1px solid #ccc;*/
@@ -391,7 +392,48 @@ p.box-desc
 
 .story-boxb p
 {
-	color: #888;
+	color: #e0e0e0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align:justify;
+}
+
+.story-boxc
+{
+	/*border: 1px solid #ccc;*/
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top: none;
+	/*text-align: center;*/
+	padding: 10px 0px 20px;
+	
+}
+
+.story-boxc p
+{
+	color: #f9f9f9;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align:justify;
+}
+.story-boxa
+{
+	/*border: 1px solid #ccc;*/
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top: none;
+	/*text-align: center;*/
+	padding: 10px 0px 20px;
+	
+}
+
+.story-boxa p
+{
+	color: #8b8b8b;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
 	font-weight: 400;
@@ -400,6 +442,26 @@ p.box-desc
 }
 
 
+.story-boxf
+{
+	/*border: 1px solid #ccc;*/
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top: none;
+	/*text-align: center;*/
+	padding: 10px 0px 20px;
+	
+}
+
+.story-boxf p
+{
+	color: #656565;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align:justify;
+}
 
 .story-box h4
 {
@@ -432,6 +494,15 @@ p.box-desc
 	float: left;
 	font-family: 'Open Sans', sans-serif;
 	background-color: #D6D6D6;
+}
+
+.contact3
+{
+	padding: 80px 0px;
+	width: 100%;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #c7c7c7;
 }
 
 .contact2

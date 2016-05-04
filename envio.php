@@ -10,25 +10,10 @@ $mensaje = $_GET['mensaje'];
 
 //Te muestro las variables
 
-echo "<h3>El mensaje que has enviado es:</h3>";
-echo "<br />";
-echo "<p>Nombre: ";
-echo $nombre;
-echo "<br />";
-echo "Email: ";
-echo $mail;
-echo "<br/>";
-echo "Fono:";
-echo $fono;
-
-echo "<br />";
-echo "Mensaje: ";
-echo $mensaje;
-echo "</p>";
 
 //Envio un email//
 
-$aquien = "lgonzalez@itservices.cl";
+$aquien = "a.alfaro.avalos@gmail.com";
 $asunto = "Has recibido un correo del sitio web";
 $mensajemail = $nombre." a enviado un Email ".$mail. " con el fono ".$fono." y con el mensaje que dice : ".$mensaje ;
 
@@ -37,8 +22,23 @@ if(mail($aquien,$asunto,$mensajemail)){
 
 echo "Tu email se ha enviado correctamente";
 
+echo'<html>
+<head>
+<meta http-equiv="refresh" content="0;url=index.html">
+
+</head>
+
+</html>';
+
 }else{
 echo "El envio del mail ha fallado";
+echo'<html>
+<head>
+<meta http-equiv="refresh" content="0;url=index.html">
+
+</head>
+
+</html>';
 }
 
 
