@@ -5,7 +5,7 @@
 
 $nombre = $_GET['nombre'];
 $mail = $_GET['email'];
-$fono = $_GET['fono'];
+
 $mensaje = $_GET['mensaje'];
 
 //Te muestro las variables
@@ -13,14 +13,14 @@ $mensaje = $_GET['mensaje'];
 
 //Envio un email//
 
-$aquien = "a.alfaro.avalos@gmail.com";
+$aquien = "andres.alfaro@uda.cl";
 $asunto = "Has recibido un correo del sitio web";
-$mensajemail = $nombre." a enviado un Email ".$mail. " con el fono ".$fono." y con el mensaje que dice : ".$mensaje ;
+$mensajemail = $nombre." a enviado un Email ".$mail. " y con el mensaje que dice : ".$mensaje ;
 
 
 if(mail($aquien,$asunto,$mensajemail)){
 
-echo "Tu email se ha enviado correctamente";
+//echo "Tu email se ha enviado correctamente";
 
 echo'<html>
 <head>
